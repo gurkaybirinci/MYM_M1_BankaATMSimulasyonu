@@ -18,7 +18,7 @@ fun main() {
     println(temizGirdi.substring(0))
     println(temizGirdi.split(" ")[0])
 
-    print("Adın: ")
+    print("Adın:  ")
     val ad = readln().trim().lowercase() // gürkay
     val temizlenmisAd = ad.replaceFirstChar { it.uppercase() }
     println(ad)
